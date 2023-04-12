@@ -1,4 +1,4 @@
-CREATE DATABASE accounting_management_system OWNER walker;
+CREATE DATABASE accounting_management_system;
 
 CREATE SEQUENCE currency_seq;
 CREATE SEQUENCE account_seq;

@@ -15,6 +15,6 @@ public class AppDBCon extends PostgresConnection {
     }
 
     public DatabaseConnection defaultConnection() throws SQLException {
-        return new AppDBCon("jdbc:postgresql://localhost:5432/accounting_management_system", "walker", "w41k4z!");
+        return new AppDBCon("jdbc:postgresql://localhost:5432/accounting_management_system", "postgres", "mdpprom15");
     }
 }
